@@ -1,1 +1,27 @@
 
+# AI Query Responder
+
+AI Query Responder is an intuitive graphical user interface (GUI) application built using Tkinter and powered by HuggingFace's language model. This application allows users to input questions and receive intelligent responses, leveraging advanced natural language processing capabilities.
+
+## Features
+
+- **User-friendly GUI**: Easy-to-use interface designed with Tkinter.
+- **AI-Powered Responses**: Utilizes HuggingFace's Falcon-7B-Instruct model to generate accurate and contextually relevant answers.
+- **Real-time Interaction**: Immediate response to user queries.
+- **Configurable Settings**: Adjustable parameters for fine-tuning the model's behavior.
+
+## Installation
+
+### Prerequisites
+
+- Python 3.8+
+- HuggingFace API token
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/csana004/AI_Query_Responder.git
+cd AI_Query_Responder
+### Install Required Packages
+bash
+pip install -r requirements.txt
